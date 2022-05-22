@@ -13,11 +13,18 @@ struct ContentView: View {
     
     var body: some View {
             
+        NavigationView {
+        
         List(self.stuffLists, id: \.word) { stuffList in
+            NavigationLink(destination: StuffListDetail(stufflist: stuffList)) {
             StuffListCell(stuffList: stuffList)
             // cmd + click (HStack, in this case) --> Extract Subview --> create subview below
+            }
         }
-
+            
+        .navigationBarTitle("Stuff List")
+            
+        }
     }
 }
 
@@ -39,7 +46,6 @@ struct StuffListCell: View {
                 .cornerRadius(100)
             VStack(alignment: .leading) {
             Text(stuffList.word)
-                    
                 // .font(.title)
                 Text(String(format: "%.1f", stuffList.number))
             }

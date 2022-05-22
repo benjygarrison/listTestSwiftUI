@@ -12,6 +12,7 @@
 		BA34DF81283AEA680025F6EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA34DF80283AEA680025F6EF /* Assets.xcassets */; };
 		BA34DF84283AEA680025F6EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA34DF83283AEA680025F6EF /* Preview Assets.xcassets */; };
 		BA34DF8C283AEAE90025F6EF /* StuffList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA34DF8B283AEAE90025F6EF /* StuffList.swift */; };
+		BA34DF8E283AF92D0025F6EF /* StuffListDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA34DF8D283AF92C0025F6EF /* StuffListDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		BA34DF80283AEA680025F6EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA34DF83283AEA680025F6EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BA34DF8B283AEAE90025F6EF /* StuffList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StuffList.swift; sourceTree = "<group>"; };
+		BA34DF8D283AF92C0025F6EF /* StuffListDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StuffListDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				BA34DF8A283AEAC20025F6EF /* Models */,
 				BA34DF7C283AEA650025F6EF /* listTestSwiftUIApp.swift */,
 				BA34DF7E283AEA650025F6EF /* ContentView.swift */,
+				BA34DF8D283AF92C0025F6EF /* StuffListDetail.swift */,
 				BA34DF80283AEA680025F6EF /* Assets.xcassets */,
 				BA34DF82283AEA680025F6EF /* Preview Content */,
 			);
@@ -151,6 +154,7 @@
 				BA34DF7F283AEA650025F6EF /* ContentView.swift in Sources */,
 				BA34DF7D283AEA650025F6EF /* listTestSwiftUIApp.swift in Sources */,
 				BA34DF8C283AEAE90025F6EF /* StuffList.swift in Sources */,
+				BA34DF8E283AF92D0025F6EF /* StuffListDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
